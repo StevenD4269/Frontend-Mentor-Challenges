@@ -1,0 +1,89 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+html {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh;
+  color: white;
+}
+
+@font-face {
+  font-family: inter-bold;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: inter-regular;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: inter-semibold;
+  src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: inter-variable;
+  src: url(./assets/fonts/static/Inter-VariableFont_slntwght.ttf);
+}
+#jrandall {
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+}
+h1 {
+  font-family: inter-bold;
+}
+#paragraph2 {
+  font-family: inter-regular;
+}
+#paragraph1 {
+  font-size: 14px;
+  font-family: inter-regular;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+main {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  padding: 50px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+#paragraph2 {
+  color: hsl(75, 94%, 57%);
+}
+.mySection {
+  width: 75%;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  font-family: inter-semibold;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: (0, 0%, 20%); /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove default underline when you make the button */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add some rounded corners for razzle dazzle */
+  cursor: pointer; /* Show pointer cursor on hover? */
+}
+
+.button:hover {
+  background-color: hsl(75, 94%, 57%); /* Change background color on hover */
+}
